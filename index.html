@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Fetch API - Meal search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <img
+      src="https://www.svgrepo.com/show/303299/blob.svg"
+      style="
+        position: fixed;
+        top: -60px;
+        right: -80px;
+        opacity: 0.1;
+        z-index: -1;
+        width: 500px;
+      "
+    />
+    <button id="theme-toggle" class="theme-toggle-btn"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    <div class="container">
+      <h1 class="heading">Meals of the World</h1>
+      <p class="sub-heading">One search away from your next favorite dish!</p>
+      <div class="meal-container">
+        <form id="submit" class="meal-container-flex">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for recipes Eg: Cake"
+            autocomplete="off"
+          />
+          <button class="search-btn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <button class="random-btn" id="random">Random</button>
+      </div>
+      <p class="meal-result-heading" id="meal-result-heading"></p>
+      <div class="meals-container">
+        <div id="meals" class="all-meals"></div>
+      </div>
+      <div id="single-meal-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
