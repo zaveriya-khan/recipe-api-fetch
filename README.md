@@ -2,7 +2,7 @@
 
 A simple and responsive web application that fetches and displays recipes from a public API. Built to explore API integration and enhance frontend skills using vanilla JavaScript.
 
-👉 **Live Demo**: 
+👉 **Live Demo**: https://api-meal-fetch-by-zaveriya.vercel.app/
 
 
 ## ✨ Features
