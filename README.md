@@ -29,5 +29,5 @@ A simple and responsive web application that fetches and displays recipes from a
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/recipe-api-fetch.git
+   git clone https://github.com/zaveriya-khan/recipe-api-fetch.git
    cd recipe-api-fetch
